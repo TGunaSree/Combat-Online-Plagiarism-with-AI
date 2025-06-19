@@ -22,3 +22,12 @@ pip3 install -r requirements.txt
 ## Running the App
 
 To run this code you need to have your textual documents in your project directory with the **.txt** extension. When you run the script, it will automatically load all the documents with that extension and then compute the similarities between them.
+##Sample Output
+```bash
+$-> cd Plagiarism-checker-Python
+$ Plagiarism-checker-Python-> python3 app.py
+('john.txt', 'juma.txt', 0.5465972177348937)
+('fatma.txt', 'john.txt', 0.14806887549598566)
+('fatma.txt', 'juma.txt', 0.18643448370323362)
+
+```
